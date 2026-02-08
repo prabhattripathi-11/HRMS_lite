@@ -14,7 +14,8 @@ import {
 } from 'lucide-react';
 
 // NOTE: Change this to your Render URL after deployment
-const API_URL = "http://localhost:5000/api";
+
+const API_URL = "https://hrms-backend-prabhat.onrender.com/api";
 
 function App() {
   const [employees, setEmployees] = useState([]);
